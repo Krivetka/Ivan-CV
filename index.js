@@ -1,4 +1,5 @@
 let isShowLanguages = true;
+let isShowProgram = true;
 let activeTab = document.querySelector('.tab_active');
 let browser = document.querySelector('.browser__content');
 let url = document.querySelector('.search-block');
@@ -117,13 +118,24 @@ function setIframe(link) {
 }
 
 function onShowLanguages(){
-    let languages = document.querySelector('.languages-block')
+    let languages = document.querySelector('.languages-block');
     if(isShowLanguages){
-        languages.classList.add('hidden')
+        languages.classList.add('hidden');
         isShowLanguages = false
     } else {
-        languages.classList.remove('hidden')
+        languages.classList.remove('hidden');
         isShowLanguages = true
+    }
+}
+
+function onShowMenu(){
+    let program = document.querySelector('.program-block');
+    if(isShowProgram){
+        program.classList.add('hidden');
+        isShowProgram = false
+    } else {
+        program.classList.remove('hidden');
+        isShowProgram = true
     }
 }
 
