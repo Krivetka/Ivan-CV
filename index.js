@@ -49,7 +49,7 @@ function setHistory(){
        <div class="timeline__event__icon ">
          <p class="lni-burger">⨊</p>
        </div>
-       <div class="timeline__event__date">2019-2023</div>
+       <div class="timeline__event__date">2019-2022</div>
        <div class="timeline__event__content ">
          <div class="timeline__event__title">BSUIR</div>
          <div class="timeline__event__description">
