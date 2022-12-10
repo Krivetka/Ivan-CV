@@ -115,6 +115,8 @@ setHistory();
 function setIframe(link) {
     url.innerText = link;
     browser.innerHTML = `<iframe src="${link}" class="iframe-block"></iframe>`
+    const card = document.querySelector(".card");
+    if (card) card.style.margin = '8vh auto;';
 }
 
 function onShowLanguages(){
